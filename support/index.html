@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Veristate</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f7fafc;
+            color: #2d3748;
+            line-height: 1.7;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header a { color: white; text-decoration: none; }
+        .header h1 { margin-top: 10px; }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .contact-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 32px;
+        }
+        .contact-card h2 {
+            color: #1a1a2e;
+            margin-bottom: 10px;
+        }
+        .contact-card p {
+            color: #718096;
+            margin-bottom: 20px;
+        }
+        .email-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 14px 28px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        .email-btn:hover { transform: scale(1.05); }
+        .faq {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .faq h2 {
+            color: #1a1a2e;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .faq-item {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 20px 0;
+        }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-item h3 {
+            color: #2d3748;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .faq-item h3::before {
+            content: "▸ ";
+            color: #667eea;
+        }
+        .faq-item p {
+            color: #4a5568;
+            font-size: 0.95rem;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 20px;
+        }
+        .footer a { color: #667eea; text-decoration: none; margin: 0 15px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="../">← Veristate</a>
+        <h1>Support</h1>
+    </div>
+
+    <div class="container">
+        <div class="contact-card">
+            <div class="contact-icon">📧</div>
+            <h2>Contact Us</h2>
+            <p>Have questions or need help? We're here to assist you.</p>
+            <a href="mailto:support@veristate.app" class="email-btn">
+                support@veristate.app
+            </a>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #a0aec0;">
+                We typically respond within 24-48 hours
+            </p>
+        </div>
+
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>Does Veristate require an internet connection?</h3>
+                <p>No, Veristate works completely offline. All your data is stored locally on your device. An internet connection is only needed if you choose to use cloud sync features.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I capture a 360° panorama?</h3>
+                <p>Open an inventory, select a room, and tap "Capture Panorama". Follow the AR guide to capture 12 photos in a circle. The app will automatically stitch them into a panoramic view.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I add damage annotations after capturing?</h3>
+                <p>Yes! Simply tap anywhere on the panorama to add an annotation. You can add a title, description, severity level, and even attach a detail photo.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do digital signatures work?</h3>
+                <p>At the end of an inventory, you can collect signatures from tenants, owners, or agents. They can sign directly on the device screen with their finger or Apple Pencil. Signatures are automatically timestamped.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What format are the reports?</h3>
+                <p>Reports are generated as professional PDF documents that include property details, panoramic photos, damage annotations with photos, meter readings, and digital signatures.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I backup my data?</h3>
+                <p>Your data is included in your iPhone's iCloud or iTunes backup. You can also export individual reports as PDF files and save them to Files, iCloud Drive, or share via email.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I delete all my data?</h3>
+                <p>Yes. Go to Settings > Delete All Data. This will permanently remove all properties, inventories, photos, and reports from your device.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is my data private?</h3>
+                <p>Absolutely. Veristate stores all data locally on your device. We don't collect, transmit, or have access to any of your data. Your inventories, photos, and signatures remain completely private.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../terms/">Terms of Service</a>
+        <a href="../">Home</a>
+    </div>
+</body>
+</html>

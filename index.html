@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veristate - Property Inventory Made Easy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 28px;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            color: #a0aec0;
+            margin-bottom: 40px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+            text-align: left;
+        }
+        .feature {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .feature-icon { font-size: 24px; margin-bottom: 10px; }
+        .feature h3 { font-size: 1rem; margin-bottom: 8px; }
+        .feature p { font-size: 0.9rem; color: #a0aec0; }
+        .cta {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 20px 10px;
+            transition: transform 0.2s;
+        }
+        .cta:hover { transform: scale(1.05); }
+        .links {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        .links a {
+            color: #a0aec0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+        .links a:hover { color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏠</div>
+        <h1>Veristate</h1>
+        <p class="subtitle">Property Inventory Made Easy</p>
+
+        <p style="color: #cbd5e0; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+            Create professional property inventories with 360° panoramic photos,
+            damage annotations, and digital signatures. Perfect for property managers,
+            real estate agents, and landlords.
+        </p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📸</div>
+                <h3>360° Panoramic Capture</h3>
+                <p>AR-guided system for perfect panoramas</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✏️</div>
+                <h3>Damage Annotations</h3>
+                <p>Mark and classify damages directly on panoramas</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✍️</div>
+                <h3>Digital Signatures</h3>
+                <p>Collect signatures from tenants and owners</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">📄</div>
+                <h3>PDF Reports</h3>
+                <p>Generate professional reports instantly</p>
+            </div>
+        </div>
+
+        <a href="#" class="cta">Download on App Store</a>
+
+        <div class="links">
+            <a href="privacy/">Privacy Policy</a>
+            <a href="terms/">Terms of Service</a>
+            <a href="support/">Support</a>
+        </div>
+
+        <p style="margin-top: 30px; color: #4a5568; font-size: 0.85rem;">
+            © 2025 Veristate. All rights reserved.
+        </p>
+    </div>
+</body>
+</html>
